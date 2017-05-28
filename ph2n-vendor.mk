@@ -43,6 +43,9 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/lge/ph2n/proprietary/framework,system/framework)
 
 # misc
-PRODUCT_COPY_FILES += \
-    vendor/lge/ph2n/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
+#PRODUCT_COPY_FILES += \
+#    vendor/lge/ph2n/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
+
+#PRODUCT_PACKAGES += \
+#    libtime_genoff
 
