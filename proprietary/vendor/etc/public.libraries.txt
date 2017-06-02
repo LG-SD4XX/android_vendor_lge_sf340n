@@ -1,0 +1,18 @@
+# For All Devices <- vendor/lge/system/core/rootdir/etc/public.libraries.lg.txt
+# Device <- 
+# Product <- device/lge/ph2n/ph2n_mpcs_us/public.libraries.txt
+libMcClient.so
+libMcRegistry.so
+# Vendor(QCT/MTK) <- vendor/qcom/proprietary/common/config/public.libraries.txt
+libOpenCL.so
+libqti_performance.so
+libqti-perfd-client.so
+lib-ims-rcscmjni.so
+lib-imsrcscm.so
+lib-imsrcscmclient.so
+lib-imsrcscmservice.so
+#LGE SENSOR
+libsensor_reg.so
+libsensor_test.so
+libsensor_thresh.so
+libsensor_user_cal.so

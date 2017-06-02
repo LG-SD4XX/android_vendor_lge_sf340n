@@ -32,6 +32,8 @@ if [ "$tag3" != "$CURRENT" ]; then
 			done
 	    done
 	fi
+    
+    rm -rf /data/preload/oat/
 	
     if [ -f /system/etc/errc_devA.cfg ]; then     	       
         for module in $(cat /system/etc/errc_devA.cfg); do
