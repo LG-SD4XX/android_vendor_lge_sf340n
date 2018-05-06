@@ -34,6 +34,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/lge/sf340n/proprietary/lib,system/lib)
 
+# lib64 files
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/lge/sf340n/proprietary/lib64,system/lib64)
+
 # etc files
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/lge/sf340n/proprietary/etc,system/etc)
@@ -46,6 +50,6 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/lge/sf340n/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
-#PRODUCT_PACKAGES += \
-#    libtime_genoff
+PRODUCT_PACKAGES += \
+    libtime_genoff
 
