@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/lge/sf340n/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/lge/sf340n/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/lge/sf340n/proprietary/lib/libSJlowlight.so:system/lib/libSJlowlight.so \
     vendor/lge/sf340n/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/lge/sf340n/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lge/sf340n/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
@@ -75,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
     vendor/lge/sf340n/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
     vendor/lge/sf340n/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/lge/sf340n/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
@@ -327,12 +325,8 @@ PRODUCT_PACKAGES += \
     QtiTetherService \
     dpmserviceapp
 PRODUCT_COPY_FILES += \
-    vendor/lge/sf340n/proprietary/bin/fidod:system/bin/fidod \
     vendor/lge/sf340n/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/sf340n/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/lge/sf340n/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/lge/sf340n/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
-    vendor/lge/sf340n/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
     vendor/lge/sf340n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/sf340n/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/sf340n/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -380,11 +374,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/lge/sf340n/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/lge/sf340n/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/lge/sf340n/proprietary/framework/qcom.fmradio.jar:system/framework/qcom.fmradio.jar \
     vendor/lge/sf340n/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/lge/sf340n/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
+    vendor/lge/sf340n/proprietary/lib/libSJlowlight.so:system/lib/libSJlowlight.so \
     vendor/lge/sf340n/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
-    vendor/lge/sf340n/proprietary/lib/libfidoservice_binder.so:system/lib/libfidoservice_binder.so \
     vendor/lge/sf340n/proprietary/lib/libfilm_emulation.so:system/lib/libfilm_emulation.so \
     vendor/lge/sf340n/proprietary/lib/libfpfactory.so:system/lib/libfpfactory.so \
     vendor/lge/sf340n/proprietary/lib/libfpfactory_jni.so:system/lib/libfpfactory_jni.so \
@@ -395,7 +388,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lge/sf340n/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/sf340n/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/lge/sf340n/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
     vendor/lge/sf340n/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/sf340n/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/lge/sf340n/proprietary/vendor/lib/hw/activity_recognition.msm8937.so:system/vendor/lib/hw/activity_recognition.msm8937.so \
