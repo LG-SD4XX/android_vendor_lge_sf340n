@@ -18,13 +18,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/sf340n/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/sf340n/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/lge/sf340n/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/lge/sf340n/proprietary/bin/iop:system/bin/iop \
-    vendor/lge/sf340n/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lge/sf340n/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/sf340n/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lge/sf340n/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/lge/sf340n/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/sf340n/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/sf340n/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/sf340n/proprietary/bin/wcnss_service:system/bin/wcnss_service \
@@ -50,22 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/lge/sf340n/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/lge/sf340n/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
-    vendor/lge/sf340n/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/lge/sf340n/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/lge/sf340n/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/lge/sf340n/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/lge/sf340n/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/lge/sf340n/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/lge/sf340n/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/lge/sf340n/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/lge/sf340n/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lge/sf340n/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -73,34 +54,22 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/lge/sf340n/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/lge/sf340n/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/lge/sf340n/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lge/sf340n/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/lge/sf340n/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/lge/sf340n/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/lge/sf340n/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/lge/sf340n/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lge/sf340n/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/lge/sf340n/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/lge/sf340n/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/sf340n/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/lge/sf340n/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/lge/sf340n/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lge/sf340n/proprietary/lib/libSJlowlight.so:system/lib/libSJlowlight.so \
-    vendor/lge/sf340n/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
-    vendor/lge/sf340n/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lge/sf340n/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/lge/sf340n/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/lge/sf340n/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/lge/sf340n/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/lge/sf340n/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/lge/sf340n/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lge/sf340n/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
-    vendor/lge/sf340n/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
-    vendor/lge/sf340n/proprietary/vendor/bin/ntcode_listing.sh:system/vendor/bin/ntcode_listing.sh \
     vendor/lge/sf340n/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lge/sf340n/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/lge/sf340n/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
-    vendor/lge/sf340n/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lge/sf340n/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lge/sf340n/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lge/sf340n/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
@@ -132,12 +101,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -153,15 +120,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libaudiohookclient.so:system/vendor/lib/libaudiohookclient.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
@@ -175,17 +139,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libfastrpc_aue_stub.so:system/vendor/lib/libfastrpc_aue_stub.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libfastrpc_utf_stub.so:system/vendor/lib/libfastrpc_utf_stub.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libhbtpjni.so:system/vendor/lib/libhbtpjni.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/lge/sf340n/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/lge/sf340n/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
@@ -198,9 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -213,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/lge/sf340n/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
@@ -240,7 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libsdsprpc.so:system/vendor/lib/libsdsprpc.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libsi.so:system/vendor/lib/libsi.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
@@ -250,47 +203,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libwbc_jni.so:system/vendor/lib/libwbc_jni.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdavenhancements.so:system/vendor/lib/libwfdavenhancements.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdmmservice.so:system/vendor/lib/libwfdmmservice.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdservice.so:system/vendor/lib/libwfdservice.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/sf340n/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/sf340n/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_bluetooth.so:system/vendor/lib/mmi_bluetooth.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_cpu.so:system/vendor/lib/mmi_cpu.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_gps.so:system/vendor/lib/mmi_gps.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_headset.so:system/vendor/lib/mmi_headset.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_storage.so:system/vendor/lib/mmi_storage.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
     vendor/lge/sf340n/proprietary/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1:system/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1 \
     vendor/lge/sf340n/proprietary/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1:system/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1 \
     vendor/lge/sf340n/proprietary/vendor/lib/rfsa/adsp/AudioSphereModule.so.1:system/vendor/lib/rfsa/adsp/AudioSphereModule.so.1 \
