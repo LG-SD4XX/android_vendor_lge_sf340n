@@ -345,8 +345,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/sf340n/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/sf340n/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
     vendor/lge/sf340n/proprietary/etc/camera/film/0_film.dat:system/etc/camera/film/0_film.dat \
     vendor/lge/sf340n/proprietary/etc/camera/film/10_film.dat:system/etc/camera/film/10_film.dat \
     vendor/lge/sf340n/proprietary/etc/camera/film/1_film.dat:system/etc/camera/film/1_film.dat \
@@ -358,28 +356,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/etc/camera/film/7_film.dat:system/etc/camera/film/7_film.dat \
     vendor/lge/sf340n/proprietary/etc/camera/film/8_film.dat:system/etc/camera/film/8_film.dat \
     vendor/lge/sf340n/proprietary/etc/camera/film/9_film.dat:system/etc/camera/film/9_film.dat \
-    vendor/lge/sf340n/proprietary/etc/camera/hi1332_lgit_chromatix.xml:system/etc/camera/hi1332_lgit_chromatix.xml \
     vendor/lge/sf340n/proprietary/etc/camera/hi1332_ofilm_chromatix.xml:system/etc/camera/hi1332_ofilm_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/hi1332_sunny_chromatix.xml:system/etc/camera/hi1332_sunny_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/hi553_chromatix.xml:system/etc/camera/hi553_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/hi553_lv9_chromatix.xml:system/etc/camera/hi553_lv9_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/hi842_chromatix.xml:system/etc/camera/hi842_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/imx234_chromatix.xml:system/etc/camera/imx234_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/imx258_bear_chromatix.xml:system/etc/camera/imx258_bear_chromatix.xml \
     vendor/lge/sf340n/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/imx258_mono_bear_chromatix.xml:system/etc/camera/imx258_mono_bear_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/imx298_gt24c64_chromatix.xml:system/etc/camera/imx298_gt24c64_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/imx362_chromatix_bear.xml:system/etc/camera/imx362_chromatix_bear.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/mn34153_chromatix.xml:system/etc/camera/mn34153_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/ov7251_chromatix.xml:system/etc/camera/ov7251_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/s5k2l7_8953_chromatix.xml:system/etc/camera/s5k2l7_8953_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/s5k2l7_chromatix.xml:system/etc/camera/s5k2l7_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/s5k5e2_chromatix.xml:system/etc/camera/s5k5e2_chromatix.xml \
     vendor/lge/sf340n/proprietary/etc/camera/s5k5e8_cowell_chromatix.xml:system/etc/camera/s5k5e8_cowell_chromatix.xml \
-    vendor/lge/sf340n/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
     vendor/lge/sf340n/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/lge/sf340n/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
     vendor/lge/sf340n/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -423,9 +402,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libactuator_dw9714a.so:system/vendor/lib/libactuator_dw9714a.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
@@ -510,7 +486,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera2_stats_algorithm_sensors.so:system/vendor/lib/libmmcamera2_stats_algorithm_sensors.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_at24c16d_eeprom.so:system/vendor/lib/libmmcamera_at24c16d_eeprom.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
@@ -523,14 +498,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_hi1332_lgit.so:system/vendor/lib/libmmcamera_hi1332_lgit.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_hi1332_ofilm.so:system/vendor/lib/libmmcamera_hi1332_ofilm.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_hi1332_sunny.so:system/vendor/lib/libmmcamera_hi1332_sunny.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_hi553.so:system/vendor/lib/libmmcamera_hi553.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_hi842.so:system/vendor/lib/libmmcamera_hi842.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_hi842_eeprom.so:system/vendor/lib/libmmcamera_hi842_eeprom.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_imx234.so:system/vendor/lib/libmmcamera_imx234.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
@@ -566,28 +535,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_isp_template.so:system/vendor/lib/libmmcamera_isp_template.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_lgit_hi1332_eeprom.so:system/vendor/lib/libmmcamera_lgit_hi1332_eeprom.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_lgit_imx234_eeprom.so:system/vendor/lib/libmmcamera_lgit_imx234_eeprom.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_lgit_imx258_eeprom.so:system/vendor/lib/libmmcamera_lgit_imx258_eeprom.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_m24c32_hi553_eeprom.so:system/vendor/lib/libmmcamera_m24c32_hi553_eeprom.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_mn34153.so:system/vendor/lib/libmmcamera_mn34153.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_ofilm_hi1332_eeprom.so:system/vendor/lib/libmmcamera_ofilm_hi1332_eeprom.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_ov8858_otp.so:system/vendor/lib/libmmcamera_ov8858_otp.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_s5k5e2_eeprom.so:system/vendor/lib/libmmcamera_s5k5e2_eeprom.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_s5k5e8_cowell.so:system/vendor/lib/libmmcamera_s5k5e8_cowell.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_s5k5e8_sunny.so:system/vendor/lib/libmmcamera_s5k5e8_sunny.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
-    vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_sunny_hi1332_eeprom.so:system/vendor/lib/libmmcamera_sunny_hi1332_eeprom.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/lge/sf340n/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
