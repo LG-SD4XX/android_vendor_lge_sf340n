@@ -186,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/sf340n/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lge/sf340n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/sf340n/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/lge/sf340n/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/sf340n/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/sf340n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
