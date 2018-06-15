@@ -181,8 +181,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/vendor/lib64/libmmsw_detail_enhancement.so:system/vendor/lib64/libmmsw_detail_enhancement.so \
     vendor/lge/sf340n/proprietary/vendor/lib64/libmmsw_math.so:system/vendor/lib64/libmmsw_math.so \
     vendor/lge/sf340n/proprietary/vendor/lib64/libmmsw_opencl.so:system/vendor/lib64/libmmsw_opencl.so \
-    vendor/lge/sf340n/proprietary/vendor/lib64/libmmsw_platform.so:system/vendor/lib64/libmmsw_platform.so
+    vendor/lge/sf340n/proprietary/vendor/lib64/libmmsw_platform.so:system/vendor/lib64/libmmsw_platform.so \
+
 PRODUCT_COPY_FILES += \
+    vendor/lge/sf340n/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/sf340n/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/sf340n/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lge/sf340n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -236,6 +238,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sf340n/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/lge/sf340n/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/lge/sf340n/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/lge/sf340n/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
+    vendor/lge/sf340n/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
     vendor/lge/sf340n/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/lge/sf340n/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
     vendor/lge/sf340n/proprietary/lib/libSJlowlight.so:system/lib/libSJlowlight.so \
